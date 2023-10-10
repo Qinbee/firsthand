@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+.hero-image {
+    background-image: url(back.jpg);
+    background-color: linear-gradient(0, 0, 0, 0.5);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+.hero-text {
+    text-align: center;
+    color: whitesmoke;
+    vertical-align: middle;
+    height: inherit;
+    padding-top: 10%;
+    font-family: Poppins;
+     
+}
+.overlay {
+    background-color: #6f64e7ad;
+    max-height: inherit;
+    height: inherit;
+}
+.body-text {
+    text-align: center;
+    color: whitesmoke;
+    padding: 50px;
+}
+.button {
+    background-color: #6f64e74f;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-color: whitesmoke;
+    color: whitesmoke;
+    margin: 0px;
+    padding: 10px;
+    font-family: georgia;
+    
+    
+}
+.button:hover {
+    background-color: #968ee6ad;
+    color: white
+ }
+.img {
+    display: inline-block;
+    box-shadow: 3px 3px 40px rgba(54,40,158,0.60);
+    border: 0;
+    margin: 70px;
+    width: 500px;
+    max-height: inherit;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: border-box;
+    aspect-ratio: 10 / 13;
+             
+}
+/* .pix {
+    position: relative;
+    align-items: center;
+    display: flex;
+    box-shadow: 3px 3px 40px rgba(54,40,158,0.60);
+    border: 0;
+    margin: 70px;
+    width: 200px;
+    max-height: inherit;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: border-box;
+    aspect-ratio: 10 / 13;
+    float: left;
+    padding: 5px; */
+                 
+}
+.pics {
+    position: relative;
+    width: 100px;
+    margin: 10px;
+} 
+.pix {
+    display: block;
+    width: 100%;
+}
+.pix:hover{
+
+}
+.gallery-image {
+    display: block;
+    /* width: 100%; */
+    background-image: url("boy.JPG");   
+    background-position: center center;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+
+}
+.image-icon {
+    background-color: transparent;
+    height: inherit;
+    width: inherit;
+    }
+.image-icon:hover {
+    background-color: #6f64e74f;
+    height: inherit;
+    width: inherit;
+}
+.pics-overlay {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 15%;
+    background: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    display: flex;
+}
+.box {
+    display: inline-block;
+    box-shadow: 3px 3px 40px rgba(54,40,158,0.60);
+    border: 0;
+    margin: 5px;
+    width: 25%;
+    max-height: inherit;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    margin-left: 70px;
+}
+tr {
+    height: 50px;
+}
+td {
+    padding: 10px;
+}
+.cont {
+    color: whitesmoke;
+}
+
